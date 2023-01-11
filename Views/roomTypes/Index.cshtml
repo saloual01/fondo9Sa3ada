@@ -1,0 +1,40 @@
+﻿@model IEnumerable<fondo9Sa3ada.context.roomType>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.numberOfBeds)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PricePerNight)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.numberOfBeds)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PricePerNight)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.roomTypeId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.roomTypeId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.roomTypeId })
+        </td>
+    </tr>
+}
+
+</table>

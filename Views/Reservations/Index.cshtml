@@ -1,0 +1,88 @@
+﻿@model IEnumerable<fondo9Sa3ada.context.Reservation>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.DateDeReservation)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Check_In)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Check_Out)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NumberOfGuests)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.isPaid)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.customerName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.customerEmail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.customerPhone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.customerAdress)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Room.description)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateDeReservation)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Check_In)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Check_Out)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NumberOfGuests)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.isPaid)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.customerName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.customerEmail)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.customerPhone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.customerAdress)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Room.description)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.reservation_ID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.reservation_ID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.reservation_ID })
+        </td>
+    </tr>
+}
+
+</table>

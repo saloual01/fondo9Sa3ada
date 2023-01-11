@@ -1,0 +1,99 @@
+﻿@model fondo9Sa3ada.context.Reservation
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Reservation</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DateDeReservation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateDeReservation)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Check_In)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Check_In)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Check_Out)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Check_Out)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NumberOfGuests)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NumberOfGuests)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.isPaid)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.isPaid)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.customerName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.customerName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.customerEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.customerEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.customerPhone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.customerPhone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.customerAdress)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.customerAdress)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Room.description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Room.description)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.reservation_ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

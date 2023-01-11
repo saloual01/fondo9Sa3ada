@@ -1,0 +1,83 @@
+﻿@model fondo9Sa3ada.context.Room
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Room</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.room_number)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.room_number)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.pricePerNight)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.pricePerNight)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.capacity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.capacity)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.isOccupied)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.isOccupied)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.isClean)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.isClean)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RoomImage)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RoomImage)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.roomType.roomTypeId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.roomType.roomTypeId)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.room_ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
