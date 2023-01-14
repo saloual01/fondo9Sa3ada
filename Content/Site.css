@@ -1,8 +1,15 @@
 ﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
-
+a {
+    color: whitesmoke;
+    text-decoration: none; /* no underline */
+}
+a:hover{
+    text-decoration: underline;
+    color: lightgray;
+}
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
@@ -12,13 +19,38 @@
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
 */
-.dl-horizontal dt {
-    white-space: normal;
-}
+
 
 /* Set width on the form input elements since they're 100% wide by default */
 input,
 select,
 textarea {
     max-width: 280px;
+}
+
+.logo {
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+}
+.logo {
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+}
+#grad1 {
+    height: 600px;
+    background-image: linear-gradient(to left, rgba(240,255,240,0), rgba(240,255,240,1)), url('imgs/cover.jpg');
+    background-repeat: no-repeat;
+    background-size: contain, cover;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
 }
