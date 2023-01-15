@@ -2,15 +2,12 @@
     ViewBag.Title = "Home Page";
 }
 <section class="bg-white dark:bg-gray-900">
-    <div id="grad1" class="grid max-w-screen-xxl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12" >
+    <div id="grad1" class="grid px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12" >
         <div class="ml-6 place-self-center lg:col-span-7">
-
-
             <h1 class="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
             <span class="text-transparent bg-clip-text bg-gradient-to-r to-green-600 from-blue-400">Fondo9 Sa3ada</span> destination.</h1>
             <p class="text-lg font-normal text-black-500 lg:text-xl dark:text-gray-400">
-                Merging the classic charm of a British country inn with contemporary comfort and amenities the Huntingdon Manor Hotel is one of the most unique and inviting hotels in Victoria, BC. Our 80 classic guest rooms and suites are appointed with tasteful furnishings and unique artwork along with modern comforts like free Wi-Fi, flat-screen televisions with cable programming and locally-made all natural Island Essentials bath products. Our 33 Euro-style Lofts are outfitted with one twin bed paired with a bunk bed, they’re the ideal choice for a fun, affordable group stay in the heart of the Victoria.
-                Please note that pet-friendly rooms, private balconies and full kitchens are available upon request.
+                Merging the classic charm of a British country inn with contemporary comfort and amenities the Huntingdon Manor Hotel is one of the most unique and inviting hotels in Victoria, BC.
             </p>
             <a href="#rooms" class="inline-flex items-center justify-center px-20 py-3 text-base font-medium text-center text-white bg-green-700 rounded-lg hover:bg-green-800 focus:ring-4 focus:ring-white-300 dark:focus:ring-white-900">
                 Our Rooms
@@ -20,174 +17,204 @@
     </div>
 </section>
 <hr />
-
-<section class="bg-white dark:bg-gray-900">
-    <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-        <div class="mr-auto place-self-center lg:col-span-7">
-            <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Payments tool for software companies</h1>
+<div class="container">
+    <section class="bg-white grid grid-cols-5 gap-4">
+        <div class="mr-auto place-self-center col-span-2">
+            <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">The best in town</h1>
             <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">From checkout to global sales tax compliance, companies around the world use Flowbite to simplify their payment stack.</p>
-            <a href="#" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+            <a href="#" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-black text-center rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
                 Get started
                 <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
             </a>
-            <a href="#" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+            <a href="#" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-900 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
                 Speak to Sales
             </a>
         </div>
-        <div class="lg:mt-0 lg:col-span-5 lg:flex">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="https://picsum.photos/id/237/600/300" class="d-block w-100" alt="https://picsum.photos/600/300">
+        <div id="indicators-carousel" class="relative col-span-3" data-carousel="static">
+            <!-- Carousel wrapper -->
+            <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+                <!-- Item 1 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                    <img src="https://picsum.photos/id/237/400/200" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                </div>
+                <!-- Item 2 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="https://picsum.photos/id/238/400/200" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                </div>
+                <!-- Item 3 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="https://picsum.photos/id/239/400/200" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                </div>
+                <!-- Item 4 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="https://picsum.photos/id/240/400/200" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                </div>
+                <!-- Item 5 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="https://picsum.photos/id/241/400/200" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                </div>
+            </div>
+            <!-- Slider indicators -->
+            <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+            </div>
+            <!-- Slider controls -->
+            <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                <span class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+                    <span class="sr-only">Previous</span>
+                </span>
+            </button>
+            <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                <span class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                    <span class="sr-only">Next</span>
+                </span>
+            </button>
+        </div>
+    </section>
+    <hr />
+    <section id="rooms" class="bg-white dark:bg-gray-900">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+            <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Designed for business teams like yours</h2>
+                <p class="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
+            </div>
+            <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
+                <!-- Pricing Card -->
+                <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+                    <h3 class="mb-4 text-2xl font-semibold">Starter</h3>
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-s/02/28/6b/32/pool.jpg" alt="hotelsa3ada">
+
+                    <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Best option for personal use & for your next project.</p>
+                    <div class="flex justify-center items-baseline my-8">
+                        <span class="mr-2 text-5xl font-extrabold">$29</span>
+                        <span class="text-gray-500 dark:text-gray-400">/month</span>
                     </div>
-                    <div class="carousel-item">
-                        <img src="https://picsum.photos/id/238/600/300" class="d-block w-100" alt="https://picsum.photos/600/300">
+                    <!-- List -->
+                    <ul role="list" class="mb-8 space-y-4 text-left">
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Individual configuration</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>No setup, or hidden fees</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Team size: <span class="font-semibold">1 developer</span></span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Premium support: <span class="font-semibold">6 months</span></span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Free updates: <span class="font-semibold">6 months</span></span>
+                        </li>
+                    </ul>
+                    <a href="#" class="inline-flex items-center justify-center p-5 text-base font-medium text-green-500 rounded-lg bg-green-50 hover:text-green-900 hover:bg-green-100 dark:text-green-400 dark:bg-green-800 dark:hover:bg-green-700 dark:hover:text-white">
+                        <span class="w-full">Book Now</span>
+                        <svg class="w-6 h-6 ml-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                    </a>
+                </div>
+                <!-- Pricing Card -->
+                <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+                    <h3 class="mb-4 text-2xl font-semibold">Company</h3>
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-s/02/28/6b/32/pool.jpg" alt="hotelsa3ada">
+
+                    <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Relevant for multiple users, extended & premium support.</p>
+                    <div class="flex justify-center items-baseline my-8">
+                        <span class="mr-2 text-5xl font-extrabold">$99</span>
+                        <span class="text-gray-500 dark:text-gray-400" dark:text-gray-400>/month</span>
                     </div>
-                    <div class="carousel-item">
-                        <img src="https://picsum.photos/id/239/600/300" class="d-block w-100" alt="https://picsum.photos/600/300">
+                    <!-- List -->
+                    <ul role="list" class="mb-8 space-y-4 text-left">
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Individual configuration</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>No setup, or hidden fees</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Team size: <span class="font-semibold">10 developers</span></span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Premium support: <span class="font-semibold">24 months</span></span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Free updates: <span class="font-semibold">24 months</span></span>
+                        </li>
+                    </ul>
+                    <a href="#" class="inline-flex items-center justify-center p-5 text-base font-medium text-green-500 rounded-lg bg-green-50 hover:text-green-900 hover:bg-green-100 dark:text-green-400 dark:bg-green-800 dark:hover:bg-green-700 dark:hover:text-white">
+                        <span class="w-full">Book Now</span>
+                        <svg class="w-6 h-6 ml-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                    </a>
+                </div>
+                <!-- Pricing Card -->
+                <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+                    <h3 class="mb-4 text-2xl font-semibold">Enterprise</h3>
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-s/02/28/6b/32/pool.jpg" alt="hotelsa3ada">
+
+                    <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Best for large scale uses and extended redistribution rights.</p>
+                    <div class="flex justify-center items-baseline my-8">
+                        <span class="mr-2 text-5xl font-extrabold">$499</span>
+                        <span class="text-gray-500 dark:text-gray-400">/month</span>
                     </div>
+                    <!-- List -->
+                    <ul role="list" class="mb-8 space-y-4 text-left">
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Individual configuration</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>No setup, or hidden fees</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Team size: <span class="font-semibold">100+ developers</span></span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Premium support: <span class="font-semibold">36 months</span></span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Free updates: <span class="font-semibold">36 months</span></span>
+                        </li>
+                    </ul>
+                    <a href="#" class="inline-flex items-center justify-center p-5 text-base font-medium text-green-500 rounded-lg bg-green-50 hover:text-green-900 hover:bg-green-100 dark:text-green-400 dark:bg-green-800 dark:hover:bg-green-700 dark:hover:text-white">
+                        <span class="w-full">Book Now</span>
+                        <svg aria-hidden="true" class="w-6 h-6 ml-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                    </a>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<hr/>
-<section id="rooms" class="bg-white dark:bg-gray-900">
-    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-        <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Designed for business teams like yours</h2>
-            <p class="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
-        </div>
-        <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
-            <!-- Pricing Card -->
-            <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-                <h3 class="mb-4 text-2xl font-semibold">Starter</h3>
-                <img src="https://media-cdn.tripadvisor.com/media/photo-s/02/28/6b/32/pool.jpg" alt="hotelsa3ada">
-
-                <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Best option for personal use & for your next project.hhhhhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
-                <div class="flex justify-center items-baseline my-8">
-                    <span class="mr-2 text-5xl font-extrabold">$29</span>
-                    <span class="text-gray-500 dark:text-gray-400">/month</span>
-                </div>
-                <!-- List -->
-                <ul role="list" class="mb-8 space-y-4 text-left">
-                    <li class="flex items-center space-x-3">
-                        <!-- Icon -->
-                        <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Individual configuration</span>
-                    </li>
-                    <li class="flex items-center space-x-3">
-                        <!-- Icon -->
-                        <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>No setup, or hidden fees</span>
-                    </li>
-                    <li class="flex items-center space-x-3">
-                        <!-- Icon -->
-                        <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Team size: <span class="font-semibold">1 developer</span></span>
-                    </li>
-                    <li class="flex items-center space-x-3">
-                        <!-- Icon -->
-                        <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Premium support: <span class="font-semibold">6 months</span></span>
-                    </li>
-                    <li class="flex items-center space-x-3">
-                        <!-- Icon -->
-                        <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Free updates: <span class="font-semibold">6 months</span></span>
-                    </li>
-                </ul>
-                <a href="#" class="inline-flex items-center justify-center p-5 text-base font-medium text-green-500 rounded-lg bg-green-50 hover:text-green-900 hover:bg-green-100 dark:text-green-400 dark:bg-green-800 dark:hover:bg-green-700 dark:hover:text-white">
-                    <span class="w-full">Book Now</span>
-                    <svg  class="w-6 h-6 ml-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                </a>
-            </div>
-            <!-- Pricing Card -->
-            <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-                <h3 class="mb-4 text-2xl font-semibold">Company</h3>
-                <img src="https://media-cdn.tripadvisor.com/media/photo-s/02/28/6b/32/pool.jpg" alt="hotelsa3ada">
-
-                <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Relevant for multiple users, extended & premium support.</p>
-                <div class="flex justify-center items-baseline my-8">
-                    <span class="mr-2 text-5xl font-extrabold">$99</span>
-                    <span class="text-gray-500 dark:text-gray-400" dark:text-gray-400>/month</span>
-                </div>
-                <!-- List -->
-                <ul role="list" class="mb-8 space-y-4 text-left">
-                    <li class="flex items-center space-x-3">
-                        <!-- Icon -->
-                        <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Individual configuration</span>
-                    </li>
-                    <li class="flex items-center space-x-3">
-                        <!-- Icon -->
-                        <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>No setup, or hidden fees</span>
-                    </li>
-                    <li class="flex items-center space-x-3">
-                        <!-- Icon -->
-                        <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Team size: <span class="font-semibold">10 developers</span></span>
-                    </li>
-                    <li class="flex items-center space-x-3">
-                        <!-- Icon -->
-                        <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Premium support: <span class="font-semibold">24 months</span></span>
-                    </li>
-                    <li class="flex items-center space-x-3">
-                        <!-- Icon -->
-                        <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Free updates: <span class="font-semibold">24 months</span></span>
-                    </li>
-                </ul>
-                <a href="#" class="inline-flex items-center justify-center p-5 text-base font-medium text-green-500 rounded-lg bg-green-50 hover:text-green-900 hover:bg-green-100 dark:text-green-400 dark:bg-green-800 dark:hover:bg-green-700 dark:hover:text-white">
-                    <span class="w-full">Book Now</span>
-                    <svg  class="w-6 h-6 ml-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                </a>
-            </div>
-            <!-- Pricing Card -->
-            <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-                <h3 class="mb-4 text-2xl font-semibold">Enterprise</h3>
-                <img src="https://media-cdn.tripadvisor.com/media/photo-s/02/28/6b/32/pool.jpg" alt="hotelsa3ada">
-
-                <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Best for large scale uses and extended redistribution rights.</p>
-                <div class="flex justify-center items-baseline my-8">
-                    <span class="mr-2 text-5xl font-extrabold">$499</span>
-                    <span class="text-gray-500 dark:text-gray-400">/month</span>
-                </div>
-                <!-- List -->
-                <ul role="list" class="mb-8 space-y-4 text-left">
-                    <li class="flex items-center space-x-3">
-                        <!-- Icon -->
-                        <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Individual configuration</span>
-                    </li>
-                    <li class="flex items-center space-x-3">
-                        <!-- Icon -->
-                        <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>No setup, or hidden fees</span>
-                    </li>
-                    <li class="flex items-center space-x-3">
-                        <!-- Icon -->
-                        <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Team size: <span class="font-semibold">100+ developers</span></span>
-                    </li>
-                    <li class="flex items-center space-x-3">
-                        <!-- Icon -->
-                        <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Premium support: <span class="font-semibold">36 months</span></span>
-                    </li>
-                    <li class="flex items-center space-x-3">
-                        <!-- Icon -->
-                        <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                        <span>Free updates: <span class="font-semibold">36 months</span></span>
-                    </li>
-                </ul>
-                <a href="#" class="inline-flex items-center justify-center p-5 text-base font-medium text-green-500 rounded-lg bg-green-50 hover:text-green-900 hover:bg-green-100 dark:text-green-400 dark:bg-green-800 dark:hover:bg-green-700 dark:hover:text-white">
-                    <span class="w-full">Book Now</span>
-                    <svg aria-hidden="true" class="w-6 h-6 ml-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
+</div>

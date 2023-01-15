@@ -2,19 +2,21 @@
     padding-top: 0px;
     padding-bottom: 0px;
 }
+
 a {
     color: whitesmoke;
     text-decoration: none; /* no underline */
 }
-a:hover{
-    text-decoration: underline;
-    color: lightgray;
-}
+
+    a:hover {
+        text-decoration: underline;
+        color: lightgray;
+    }
 /* Set padding to keep content from hitting the edges */
-.body-content {
+/*.body-content {
     padding-left: 15px;
     padding-right: 15px;
-}
+}*/
 
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
@@ -34,12 +36,14 @@ textarea {
     height: 40px;
     margin-top: 5px;
 }
+
 .logo {
     border-radius: 4px;
     width: 40px;
     height: 40px;
     margin-top: 5px;
 }
+
 #grad1 {
     height: 600px;
     background-image: linear-gradient(to left, rgba(240,255,240,0), rgba(240,255,240,1)), url('imgs/cover.jpg');
