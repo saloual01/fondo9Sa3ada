@@ -9,7 +9,7 @@
             <p class="text-lg font-normal text-black-500 lg:text-xl dark:text-gray-400">
                 Merging the classic charm of a British country inn with contemporary comfort and amenities the Huntingdon Manor Hotel is one of the most unique and inviting hotels in Victoria, BC.
             </p>
-            <a href="#rooms" class="inline-flex items-center justify-center px-20 py-3 text-base font-medium text-center text-white bg-green-700 rounded-lg hover:bg-green-800 focus:ring-4 focus:ring-white-300 dark:focus:ring-white-900">
+            <a href="#rooms" class="inline-flex items-center justify-center px-20 py-3 text-base font-medium text-center text-white bg-green-700 rounded-lg hover:bg-green-800 focus:ring-4 focus:ring-white-300 dark:focus:ring-white-900" style = "text-decoration:none" >
                 Our Rooms
                 <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
             </a>
@@ -101,7 +101,7 @@
                 </div>
             </div>
 
-            <button type="button" class="btn btn-secondary inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-black border border-gray-300 rounded-lg hover:bg-gray-900 focus:ring-4 focus:ring-gray-900 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+            <button class="btn btn-secondary inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-black border border-gray-300 rounded-lg hover:bg-gray-900 focus:ring-4 focus:ring-gray-900 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
                 @Html.ActionLink("BOOK NOW", "Create", "Reservations")
             </button>
         </div>
@@ -208,7 +208,7 @@
                         </li>
                     </ul>
                     <button type="button" class="btn btn-success inline-flex items-center justify-center px-5 py-3 " style="text-decoration:unset;">
-                        @Html.ActionLink("BOOK NOW", "Create", "Reservations", new { style = "text-decoration:none" })
+                        @Html.ActionLink("BOOK NOW", "Create", "Reservations")
                     </button>
                 </div>
                 <!-- Pricing Card -->
@@ -249,7 +249,7 @@
                         </li>
                     </ul>
                     <button type="button" class="btn btn-success inline-flex items-center justify-center px-5 py-3 " style="text-decoration:unset;">
-                        @Html.ActionLink("BOOK NOW", "Create", "Reservations", new { style = "text-decoration:none" })
+                        @Html.ActionLink("BOOK NOW", "Create", "Reservations")
                     </button>
                 </div>
                 <!-- Pricing Card -->
@@ -290,8 +290,8 @@
                         </li>
                     </ul>
                     
-                    <button type="button" class="btn btn-success inline-flex items-center justify-center px-5 py-3 " style="text-decoration:unset;">
-                        @Html.ActionLink("BOOK NOW", "Create", "Reservations", new { style = "text-decoration:none" })
+                    <button type="button" class="btn btn-success inline-flex items-center justify-center px-5 py-3 ">
+                        @Html.ActionLink("BOOK NOW", "Create", "Reservations")
                     </button>
                 </div>
             </div>

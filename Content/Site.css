@@ -30,7 +30,7 @@ textarea {
     max-width: 280px;
 }
 
-.logo {
+#logo {
     border-radius: 4px;
     width: 40px;
     height: 40px;
@@ -47,6 +47,12 @@ textarea {
 #grad1 {
     height: 600px;
     background-image: linear-gradient(to left, rgba(240,255,240,0), rgba(240,255,240,1)), url('imgs/cover.jpg');
+    background-repeat: no-repeat;
+    background-size: contain, cover;
+}
+#grad2 {
+    height: 600px;
+    background-image: linear-gradient(to left, rgba(240,255,240,0), rgba(240,255,240,1)), url('imgs/staff.jpg');
     background-repeat: no-repeat;
     background-size: contain, cover;
 }
