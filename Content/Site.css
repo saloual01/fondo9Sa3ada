@@ -5,7 +5,7 @@
 
 a {
     color: whitesmoke;
-    text-decoration: none; /* no underline */
+    text-decoration: none !important; /* no underline */
 }
 
     a:hover {

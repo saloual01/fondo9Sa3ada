@@ -3,20 +3,22 @@
 {
     using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
     {
-    @Html.AntiForgeryToken()
+        @Html.AntiForgeryToken()
 
-    <ul class="flex align-items-center mb-0">
-        <li>
-            @Html.ActionLink("Hello " + User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage", @class = "mr-4"})
-        </li>
-        <li><a class="btn btn-light" href="javasuecript:document.getElementById('logoutForm').submit()">Se déconnecter</a></li>
-    </ul>
+        <ul class="flex align-items-center mb-0">
+            <li>
+                @Html.ActionLink("Hello " + User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage", @class = "mr-4" })
+            </li>
+            <li>
+                <a class="btn btn-outline-success" onclick="javascript:document.getElementById('logoutForm').submit()">Se deconnecter</a>
+            </li>
+        </ul>
     }
 }
 else
 {
     <ul class="flex mb-0">
-        <li>@Html.ActionLink("S'inscrire", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink", type = "button", @class = "btn btn-outline-light me-2"})</li>
+        <li>@Html.ActionLink("S'inscrire", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink", type = "button", @class = "btn btn-outline-light me-2" })</li>
         <li>@Html.ActionLink("Se connecter", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink", type = "button", @class = "btn btn-success" })</li>
     </ul>
 }
